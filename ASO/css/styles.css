@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #6a4c9c;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo img {
+    width: 80px;
+    border-radius: 50%;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+.intro {
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.mapa {
+    padding: 40px;
+    text-align: center;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+.contacto {
+    padding: 20px;
+    background-color: #eee;
+    text-align: center;
+}
+
+.contacto form {
+    margin: 0 auto;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.contacto input, .contacto button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contacto .whatsapp-button img {
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+}
